@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1e248397-5c61-48f0-af85-65f0f9d96062}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a7b3e42c-149f-47b3-b8da-fc57a2a38275}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1040" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5068c8dc-2e01-42f6-a395-131445e15e09}">
+                  <labels>
+                    <label description="GENERALE" languagecode="1040" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea79d13e-64ed-4c87-9de9-ce50f8945524}">
+                        <labels>
+                          <label description="TblConfigAdmin_Nome" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblconfigadmin_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_tblconfigadmin_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{529e6f30-58bf-4a17-bd7b-2905aa097401}">
+                        <labels>
+                          <label description="Proprietario" languagecode="1040" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informazioni" languagecode="1040" />
+    </LocalizedNames>
+  </systemform>
+</forms>

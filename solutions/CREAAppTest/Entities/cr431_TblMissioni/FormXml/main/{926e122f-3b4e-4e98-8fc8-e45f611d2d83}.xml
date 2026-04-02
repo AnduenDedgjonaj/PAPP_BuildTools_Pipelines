@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{926e122f-3b4e-4e98-8fc8-e45f611d2d83}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7524f898-5106-4279-9a23-90624e66c575}" IsUserDefined="1">
+          <labels>
+            <label description="Generale" languagecode="1040" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d7f0d0cc-2fbb-4144-b111-1b966f1fd638}">
+                  <labels>
+                    <label description="Generale" languagecode="1040" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{31034b8b-2c27-47f9-846a-d567aa6762b0}">
+                        <labels>
+                          <label description="Proprietario" languagecode="1040" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{607604c1-9879-47b6-a324-f41ac4597011}" locklevel="0">
+                        <labels>
+                          <label description="Data modifica" languagecode="1040" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67ea0d50-370a-4d6e-b7b4-4787bad80ec3}">
+                        <labels>
+                          <label description="TblMissioni_Nome" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{085048a0-dba0-42ba-94e8-278ffa8b20a8}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Email" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_email" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f430570e-09bb-49d2-bb9e-67d313ba1e16}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_AreaAppartenenza" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_areaappartenenza" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_areaappartenenza" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d0386f2-4c8f-452f-9d16-a12eb789263b}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Luogo" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_luogo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_luogo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eaeeb470-f801-4d44-9566-fd4d14ca0cd8}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Motivazione" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_motivazione" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cr431_tblmissioni_motivazione" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79cfaa62-469d-44dc-b348-2d33c5490c71}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Assegnatario" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_assegnatario" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_tblmissioni_assegnatario" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05819540-4643-4d0f-942b-6465e4f9829e}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_AltroAssegnatario" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_altroassegnatario" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_altroassegnatario" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cf1f42e5-5ed6-4cb2-9320-77fa1e0978a6}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_MezzoUtil" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_mezzoutil" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr431_tblmissioni_mezzoutil" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3725406-9ed2-427a-9f36-d3032bf91a8e}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_NomeProg" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_nomeprog" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_nomeprog" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d5c743b-0817-4116-9afd-3f381feea759}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Anticipo" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_anticipo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_anticipo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfa16535-0030-4aec-af00-6cff187b9796}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_StatoRichiesta" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_statorichiesta" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblmissioni_statorichiesta" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5f6d046-cac7-41a9-bf7e-97a45232eddb}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_DataStart" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_datastart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_tblmissioni_datastart" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e4dd3d58-eae1-46fc-aff7-a5be1d98f92e}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_DataEnd" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_dataend" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr431_tblmissioni_dataend" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35c5bb1d-b5c7-4159-92b9-01261b3f9a87}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Note" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_note" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cr431_tblmissioni_note" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcefec26-ad2c-43e6-8615-1bb87f2af3a6}" locklevel="0">
+                        <labels>
+                          <label description="TblMissioni_Importo" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblmissioni_importo" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cr431_tblmissioni_importo" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{46755f9f-dbd1-48a0-bad0-a905306acffa}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d0a364ca-b438-45b6-9ee4-17e0299264db}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{a498c879-06a8-419d-a6f1-ee7c4878e574}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{29856d2e-15de-4faf-8706-2d875169654e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0e225a4b-8b2b-4015-a3b2-474ccdaeb294}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4682c676-6c8f-4444-9774-9af62a41f4e9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{1e709142-aab9-405d-9351-72fe97d47d35}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{ac4bbc40-179a-4d17-8a2d-78a311757e3b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informazioni" languagecode="1040" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Modulo per questa entità." languagecode="1040" />
+    </Descriptions>
+  </systemform>
+</forms>
