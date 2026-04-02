@@ -1,0 +1,22 @@
+name: Release action
+# Call the reusable workflow release-solution-with-inputs.yml
+# Release your solution to prod when you create a new release.
+
+on:
+  release:
+      types: [created]        
+permissions:
+  contents: write
+jobs:
+  Release-solution-CREAAppTest:
+    uses: ./.github/workflows/release-solution-to-test-with-inputs.yml
+    with:
+      #You can specify the solution name here
+      solution_name: CREAAppTest
+      #Update your values here
+      BUILD_ENVIRONMENT_URL: https://orgcad2587e.crm4.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://org0beffc7c.crm4.dynamics.com/
+      CLIENT_ID: 27004dc2-0de2-4c27-9ef7-2390bb5572b1
+      TENANT_ID: a5c13a15-9622-42df-a06e-e1c24f068227      
+    secrets:
+      envSecret: ${{ secrets.PowerPlatformSPN }}
