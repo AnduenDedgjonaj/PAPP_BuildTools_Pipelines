@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cr431_creamobiledemo_381cf</Name>
+  <AppVersion>2022-02-01T15:23:17Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22013.7.0</CreatedByClientVersion>
+  <MinClientVersion>3.22013.7.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"10c6425f-03a5-44a0-81b4-d5cc3e6d4b81","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.22013.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>CREA - Mobile Demo</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"3fd1fcdb-5545-4ac8-9bb0-963cad66f9ec":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Utenti di Office 365","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1528/1.0.1528.2589/office365users/icon.png","dataSources":["UtentidiOffice365"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"956e441f-ad42-46ff-96b8-644c291cbcbc":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1538/1.0.1538.2621/office365/icon.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SendEmailV2"]}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"TblConfigAdmin":{"entitySetName":"cr431_tblconfigadmins","logicalName":"cr431_tblconfigadmin"},"TblMissioni":{"entitySetName":"cr431_tblmissionis","logicalName":"cr431_tblmissioni"},"Allegati":{"entitySetName":"fileattachments","logicalName":"fileattachment"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"cr431_tblconfigadmin","componenttype":1},{"logicalname":"cr431_tblmissioni","componenttype":1},{"logicalname":"fileattachment","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cr431_creamobiledemo_381cf_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cr431_creamobiledemo_381cf_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

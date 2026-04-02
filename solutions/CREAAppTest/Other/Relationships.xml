@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_cr431_tblconfigadmin" />
+  <EntityRelationship Name="business_unit_cr431_tblmissioni" />
+  <EntityRelationship Name="FileAttachment_cr431_TblMissioni_cr431_Tbl_Allegati" />
+  <EntityRelationship Name="lk_cr431_tblconfigadmin_createdby" />
+  <EntityRelationship Name="lk_cr431_tblconfigadmin_modifiedby" />
+  <EntityRelationship Name="lk_cr431_tblmissioni_createdby" />
+  <EntityRelationship Name="lk_cr431_tblmissioni_modifiedby" />
+  <EntityRelationship Name="owner_cr431_tblconfigadmin" />
+  <EntityRelationship Name="owner_cr431_tblmissioni" />
+  <EntityRelationship Name="team_cr431_tblconfigadmin" />
+  <EntityRelationship Name="team_cr431_tblmissioni" />
+  <EntityRelationship Name="TransactionCurrency_cr431_TblMissioni" />
+  <EntityRelationship Name="user_cr431_tblconfigadmin" />
+  <EntityRelationship Name="user_cr431_tblmissioni" />
+</EntityRelationships>

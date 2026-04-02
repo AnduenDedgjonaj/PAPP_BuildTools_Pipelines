@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cc4600c0-4a5b-4a35-a9c0-6c4de059000e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr431_tblmissioni_nome" select="1" icon="1" preview="1">
+        <row name="result" id="cr431_tblmissioniid">
+          <cell name="cr431_tblmissioni_nome" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr431_tblmissioni">
+          <attribute name="cr431_tblmissioniid" />
+          <attribute name="cr431_tblmissioni_nome" />
+          <attribute name="createdon" />
+          <order attribute="cr431_tblmissioni_nome" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Visualizzazione ricerca avanzata TblMissioni" languagecode="1040" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

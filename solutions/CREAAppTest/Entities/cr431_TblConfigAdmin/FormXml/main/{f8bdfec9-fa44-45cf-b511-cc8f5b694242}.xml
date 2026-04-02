@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f8bdfec9-fa44-45cf-b511-cc8f5b694242}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{207a7f44-8f61-4381-bb13-c4bcc4457701}" IsUserDefined="1">
+          <labels>
+            <label description="Generale" languagecode="1040" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6587e98b-4528-41c7-bb10-e287620f7b20}">
+                  <labels>
+                    <label description="Generale" languagecode="1040" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{047b5992-840f-43a5-b90f-9e3ca84e9a00}">
+                        <labels>
+                          <label description="TblConfigAdmin_Nome" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblconfigadmin_nome" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr431_tblconfigadmin_nome" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58ebbd2d-c738-446c-a703-0bd840be4017}" locklevel="0">
+                        <labels>
+                          <label description="TblConfigAdmin_Email" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblconfigadmin_email" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblconfigadmin_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9afa3753-2848-4c76-90e4-ae72915e7c24}" locklevel="0">
+                        <labels>
+                          <label description="TblConfigAdmin_Ruolo" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblconfigadmin_ruolo" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblconfigadmin_ruolo" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9705a647-03b1-452f-987e-1fb33143ad84}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="TblConfigAdmin_AreaAppartenenza" languagecode="1040" />
+                        </labels>
+                        <control id="cr431_tblconfigadmin_areaappartenenza" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr431_tblconfigadmin_areaappartenenza" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d06fb5b-4cb8-4545-b786-e0e331916ad2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="TblConfigAdmin_Approvatore" languagecode="1040" />
+                        </labels>
+                        <control id="new_tblconfigadmin_approvatore" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="new_tblconfigadmin_approvatore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ff448a3-cf00-4c2d-8a21-a46bd97d2202}">
+                        <labels>
+                          <label description="Proprietario" languagecode="1040" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8b885f4c-0ae5-4c0f-9c22-b35dd3502bcc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a6f4018f-237f-4986-b7b5-f1b0977609d6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{d6630201-c45a-4398-b84b-5e197ac0708f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{66007596-3475-4b3d-8baf-4be756543220}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3c79e68b-7789-4f9e-9ff5-05592b350b78}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{de16b21a-110a-484a-8db5-32fd6cc17c2e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{91164d69-3b98-4372-b71c-5452f5cbc0ff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+            <cell id="{372dab8e-7f96-400e-8dfb-fd48ce729088}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1040" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Informazioni" languagecode="1040" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Modulo per questa entità." languagecode="1040" />
+    </Descriptions>
+  </systemform>
+</forms>

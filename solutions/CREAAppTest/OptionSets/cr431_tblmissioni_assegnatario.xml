@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cr431_tblmissioni_assegnatario" localizedName="TblMissioni_AssegnatarioScelta" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="TblMissioni_AssegnatarioScelta" languagecode="1040" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1040" />
+  </Descriptions>
+  <options>
+    <option value="298400000" IsHidden="0">
+      <labels>
+        <label description="Dipartimento 1" languagecode="1040" />
+      </labels>
+    </option>
+    <option value="298400001" IsHidden="0">
+      <labels>
+        <label description="Dipartimento 2" languagecode="1040" />
+      </labels>
+    </option>
+    <option value="298400002" IsHidden="0">
+      <labels>
+        <label description="Dipartimento 3" languagecode="1040" />
+      </labels>
+    </option>
+    <option value="298400003" IsHidden="0">
+      <labels>
+        <label description="Dipartimento 4" languagecode="1040" />
+      </labels>
+    </option>
+    <option value="298400004" IsHidden="0">
+      <labels>
+        <label description="Altro Assegnatario" languagecode="1040" />
+      </labels>
+    </option>
+  </options>
+</optionset>
