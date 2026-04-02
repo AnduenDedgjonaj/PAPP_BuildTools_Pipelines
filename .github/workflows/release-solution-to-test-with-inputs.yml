@@ -1,4 +1,4 @@
-name: release-solution-to-prod-reusable
+name: release-solution-to-test-reusable
 # Reusable workflow
 # convert solution to managed (using a build PowerPlatform environment for the conversion)
 # upload the solution to the GitHub artifacts and deploy to the PROD environment
@@ -9,9 +9,9 @@ on:
       #Values are set by the caller
       #caller sample: release-action-call.ymnl
       solution_name:
-        description: 'The solution name.'
+        description: 'CREAAppTest'
         type: string
-        default: ALMLab       
+        default: CREAAppTest       
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'        
         type: string
